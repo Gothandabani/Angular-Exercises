@@ -30,9 +30,29 @@ for(let service of data.services){
     code+="<img src='"+service.image+"'>"
     code+="<div class='features'> <ul>"
     for(let feature of service.features){
-        code+="<li>"+feature+"</li>"
+        code+="<li onclick=\"alertonlist('" + feature + "')\">" +feature+"</li>"
     }
     code+="</ul></div></div>"
 }
+function alertonlist(input){
+    alert(input);
+}
+function hide(input)
+{
+    if(input=="up")
+    {
+    document.getElementById("slide-show").style.display="none";
+    document.getElementById("Up-icon").style.display="none";
+    document.getElementById("down-icon").style.display="block";
+    
+    }
+     else
+    {
+    document.getElementById("slide-show").style.display="block";
+    document.getElementById("down-icon").style.display="none";
+    document.getElementById("Up-icon").style.display="block";
+    }
+
+} 
 
 document.getElementById("services-wrapper").innerHTML=code

@@ -24,7 +24,23 @@ body{
      text-align: center;
      float: left;
 }
-
+#Socialwebsites #image1{ 
+    position:relative; 
+    top: -5px;
+    right: -1000px;
+    
+    
+   }
+   #Socialwebsites #image2{
+   position: relative;
+   top: -5px;
+   right: -900px;
+   }
+   #Socialwebsites #image3{
+       position: relative;
+       top:-5px;
+       right:-800px;
+   }
 #menu {
     
     float: left;
