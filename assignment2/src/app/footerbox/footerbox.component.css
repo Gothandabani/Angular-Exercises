@@ -1,0 +1,26 @@
+.fbox {
+    height: 100%;
+    width: 97%;
+    padding-left: 3px;
+    margin-left: 5px;
+    background-color: whitesmoke;
+    color: black;
+  }
+  
+  #first {
+    padding-top: 12px;
+    text-align: left;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    float: left;
+  }
+  
+  #second {
+    padding-top: 2px;
+    text-align: right;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    padding-left: 80%;
+    float: left;
+    color: rgb(140, 185, 68);
+  }
